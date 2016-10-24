@@ -32,11 +32,11 @@ trait PrivateImmutableAttributes
      */
     protected function getOrFail($key)
     {
-        if (!key_exists($key, $this->attributes)) {
-            throw UndefinedException::from($key);
+        if (key_exists($key, $this->attributes)) {
+            return $this->attributes[$key];
         }
 
-        return $this->attributes[$key];
+        throw UndefinedException::from($key);
     }
 
     /**
