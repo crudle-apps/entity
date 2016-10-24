@@ -1,0 +1,24 @@
+{
+  "name": "crudle/entity",
+  "description": "A set of Entity assistance components",
+  "type": "library",
+  "license": "MIT",
+  "authors": [
+    {
+      "name": "Nathan King",
+      "email": "nathan@crudle.co.uk"
+    }
+  ],
+  "autoload": {
+    "psr-4": {
+      "Crudle\\Entity\\": "src/"
+    }
+  },
+  "require": {
+    "php": ">=7.0",
+    "ramsey/uuid": "^3.5"
+  },
+  "require-dev": {
+    "phpunit/phpunit": "^5.6"
+  }
+}
