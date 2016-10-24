@@ -5,7 +5,7 @@ This package contains various things like traits for private immutable attribute
 # Installation
 
 ```
-composer require crudleapps/entity
+composer require crudle/entity
 ```
 
 # Example Usage
